@@ -8,60 +8,51 @@
     <link rel="stylesheet" href="/assest/css/util.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="assest/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/13dbb1276e.js" crossorigin="anonymous"></script>
     <title>layout</title>
 </head>
 
-<body>
+
+<body dir="rtl">
     <nav class="blue accent-2 z-depth-0">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">home</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
+            <a  href="#!" class="brand-logo">
+                <img class="apple" src="/assest/image/apple.avif" alt="apple">
+            </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul class=" rightt hide-on-med-and-down main_ul_navbar">
+                <li class="tab"><a href="#content1">داشبورد</a></li>
+                <li class="tab"><a href="#content2">مدیریت مخارج</a></li>
+                <li class="tab"><a href="#content3">افزودن هزینه</a></li>
+                <li class="tab"><a href="#content4">مدیریت همسایگان</a></li>
+                <li class="tab"><a href="#content5"> پیام ها</a></li>
             </ul>
         </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img class="w_100" src="/assest/image/screen.jpg">
-                </div>
-                <a href="#user"><img class="circle sizefull" src="/assest/image/ali ax.jpg"></a>
-                <a href="#name"><span class="white-text name">ali foladi</span></a>
-                <a href="#email"><span class="white-text email">foladi169@gmail.com</span></a>
-            </div>
-        </li>
-        <li>
-            <a href="https://google.com" target="_blank">
-                <i class=" material-icons">insert_link</i>
-                google
-            </a>
-        </li>
-        <li>
-            <a href="https://codeyad.com" target="_blank">
-                <i class="material-icons">
-                    insert_link
-                </i>
-                codeyad
-            </a>
-        </li>
-        <li>
-            <div class="divider"></div>
-        </li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    
+        <ul class="sidenav text-darken-2 main_ul_navbar" id="mobile-demo"><br>
+            <li class="tab"><a href="#content1">داشبورد</a></li>
+            <li class="tab"><a href="#content2">مدیریت مخارج</a></li>
+            <li class="tab"><a href="#content3">افزودن هزینه</a></li>
+            <li class="tab"><a href="#content4">مدیریت همسایگان</a></li>
+            <li class="tab"><a href="#content5"> پیام ها</a></li>
+        </ul>
+
+            <div id="content1" class="item_content sizefull  purple"></div>
+            <div id="content2" class="item_content sizefull yellow"></div>
+            <div id="content3" class="item_content sizefull green"></div>
+            <div id="content4" class="item_content sizefull blue"></div>
+            <div id="content5" class="item_content sizefull red"></div>      
+
+    
+
     </ul>
-    </ul>
-
-
-
-
-
+    <p style="color: var(--danger); text-align: center;">
+        
+    </p>
 
 
 

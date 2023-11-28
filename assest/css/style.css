@@ -1,1 +1,57 @@
+*{
+    direction: rtl;
+    text-align: right;
+
+}
 .w_100{width: 100%;height: 100% !important;}
+.material-icons{
+    float: right !important;
+}
+.sidenav-trigger{
+    float: right !important;
+}
+/* .sidenav{
+    float: right !important;
+} */
+/* .sidenav-overlay{
+    float: right !important;
+}
+     */
+@media(min-width:992px){
+    nav .brand-logo{
+        right: unset !important;
+        left: 0.5rem !important;
+    }
+}
+:root{
+    --danger: blue;
+}
+ #mobile-demo{
+    background:
+    linear-gradient(#F1F1F1 , #82B1FF , #9F9F9F);
+    
+    
+
+}
+.content_main{
+    width: 100%;
+    height: 100% !important; 
+}
+.item_content{
+    width: 100%;
+    height: calc(100vh - 64px)
+    !important ;
+}
+
+.apple{
+    width: 70px;
+    height: 60px;
+
+}
+.rightt{
+    display:flex;
+}
+.tabs-content.carousel.carousel-slider{
+    height: calc(100vh - 64px)
+    !important;
+}
