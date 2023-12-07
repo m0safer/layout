@@ -14,44 +14,60 @@
 
 
 <body dir="rtl">
+    <!-- navbar -->
     <nav class="blue accent-2 z-depth-0">
         <div class="nav-wrapper">
-            <a  href="#!" class="brand-logo">
+            <a href="#!" class="brand-logo">
                 <img class="apple" src="/assest/image/apple.avif" alt="apple">
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="fa-solid fa-bars"></i>
+                <i class="material-icons">dehaze</i>
             </a>
-            <ul class=" rightt hide-on-med-and-down main_ul_navbar">
-                <li class="tab"><a href="#content1">داشبورد</a></li>
-                <li class="tab"><a href="#content2">مدیریت مخارج</a></li>
-                <li class="tab"><a href="#content3">افزودن هزینه</a></li>
-                <li class="tab"><a href="#content4">مدیریت همسایگان</a></li>
-                <li class="tab"><a href="#content5"> پیام ها</a></li>
+            <!-- desktop -->
+            <ul id="center_align" class=" rightt hide-on-med-and-down main_ul_navbar">
+                <li class="tab"><a class="menu_link_desktop" href="#content1">داشبورد</a></li>
+                <li class="tab"><a class="menu_link_desktop" href="#content2">مدیریت مخارج</a></li>
+                <li class="tab"><a class="menu_link_desktop" href="#content3">افزودن هزینه</a></li>
+                <li class="tab"><a class="menu_link_desktop" href="#content4">مدیریت همسایگان</a></li>
+                <li class="tab"><a class="menu_link_desktop" href="#content5"> پیام ها</a></li>
             </ul>
         </div>
     </nav>
 
-    
-        <ul class="sidenav text-darken-2 main_ul_navbar" id="mobile-demo"><br>
-            <li class="tab"><a href="#content1">داشبورد</a></li>
-            <li class="tab"><a href="#content2">مدیریت مخارج</a></li>
-            <li class="tab"><a href="#content3">افزودن هزینه</a></li>
-            <li class="tab"><a href="#content4">مدیریت همسایگان</a></li>
-            <li class="tab"><a href="#content5"> پیام ها</a></li>
+    <!-- mobile  -->
+    <ul class="sidenav text-darken-2 main_ul_navbar" id="mobile-demo"><br>
+        <li class="tab"><a href="#content1">داشبورد</a></li>
+        <li class="tab"><a href="#content2">مدیریت مخارج</a></li>
+        <li class="tab"><a href="#content3">افزودن هزینه</a></li>
+        <li class="tab"><a href="#content4">مدیریت همسایگان</a></li>
+        <li class="tab"><a href="#content5">پیام ها</a></li>
+    </ul>
+    <!-- content button -->
+    <div id="content1" class="item_content"></div>
+    <div id="content2" class="item_content yellow"></div>
+    <div id="content3" class="item_content green"></div>
+    <div id="content4" class="item_content blue"></div>
+    <div id="content5" class="item_content red"></div>
+    <!-- <!-fast button-  -->
+
+    <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large cyan darken-4">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating"><i class="fas fa-users"></i></a></li>
+            <li><a class="btn-floating"><i class="fas fa-user-plus"></i></a></li>
+            <li><a class="btn-floating"><i class="fas fa-money-bill-wave"></i></a></li>
+            <li><a class="btn-floating"><i class="fas fa-envelope"></i></a></li>
         </ul>
+    </div>
 
-            <div id="content1" class="item_content sizefull  purple"></div>
-            <div id="content2" class="item_content sizefull yellow"></div>
-            <div id="content3" class="item_content sizefull green"></div>
-            <div id="content4" class="item_content sizefull blue"></div>
-            <div id="content5" class="item_content sizefull red"></div>      
 
-    
+
 
     </ul>
     <p style="color: var(--danger); text-align: center;">
-        
+
     </p>
 
 
